@@ -36,8 +36,6 @@ namespace XamarinSessionRestore.Views
         {
             SimpleLogger.WriteLine("TopPage Appearing.");
 
-            Device.OpenUri(new Uri("http://www.xamarin.com"));
-
             base.OnAppearing();
         }
     }
